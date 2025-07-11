@@ -97,14 +97,6 @@ flutter build ios --release
 - Professional typography with Inter font
 - Responsive design for different screen sizes
 
-## Performance Optimizations
-
-- **APK Size**: Optimized build configuration reduces APK size to ~7-8MB
-- **Code Shrinking**: ProGuard enabled for release builds
-- **Font Optimization**: Custom font files with fallbacks
-- **Efficient Animations**: Lightweight animation implementations
-
-## Development Notes
 
 ### State Management
 Uses Provider pattern with ChangeNotifier for reactive state management:
