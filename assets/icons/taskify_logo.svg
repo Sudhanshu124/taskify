@@ -1,0 +1,54 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5A52FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4B42FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="checkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#44B6A8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="listGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#backgroundGradient)" stroke="none"/>
+  
+  <!-- Task List Container -->
+  <rect x="140" y="120" width="232" height="280" rx="20" ry="20" fill="url(#listGradient)" stroke="none"/>
+  
+  <!-- Task List Lines -->
+  <rect x="180" y="160" width="140" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="180" y="190" width="120" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="180" y="220" width="160" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="180" y="280" width="130" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="180" y="310" width="100" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="180" y="340" width="140" height="6" rx="3" fill="#E5E7EB"/>
+  
+  <!-- Checkboxes -->
+  <rect x="160" y="155" width="16" height="16" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="160" y="185" width="16" height="16" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="160" y="215" width="16" height="16" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="160" y="275" width="16" height="16" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="160" y="305" width="16" height="16" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="160" y="335" width="16" height="16" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  
+  <!-- Completed Checkbox -->
+  <rect x="160" y="245" width="16" height="16" rx="4" fill="url(#checkGradient)" stroke="none"/>
+  <path d="M164 253 L167 256 L172 249" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Strikethrough Line for Completed Task -->
+  <line x1="180" y1="253" x2="320" y2="253" stroke="#9CA3AF" stroke-width="2"/>
+  
+  <!-- Large Checkmark Overlay -->
+  <circle cx="350" cy="180" r="45" fill="url(#checkGradient)" stroke="white" stroke-width="6"/>
+  <path d="M330 180 L345 195 L370 165" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Subtle Shadow/Depth Effect -->
+  <ellipse cx="256" cy="480" rx="180" ry="20" fill="black" opacity="0.1"/>
+</svg>
